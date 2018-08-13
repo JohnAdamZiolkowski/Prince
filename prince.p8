@@ -2,7 +2,7 @@ pico-8 cartridge // http://www.pico-8.com
 version 16
 __lua__
 -- prince
--- by john ziolkowski
+-- by john adam ziolkowski
 
 -- util
 
@@ -293,7 +293,7 @@ end
 -->8
 -- init
 
-version="v1.0"
+version="v1.1"
 date="18.08.12"
 
 function _init()
@@ -1716,11 +1716,11 @@ end
 function change_class(member)
  if is_fighter(member.i) then
   member.i = caster
-  set_stale()
  elseif is_caster(member.i) then
   member.i = fighter
-  set_stale()
  end
+ member.n = lget(enemy.stats,member.i).n
+ set_stale()
 end
 
 function change_settings(d)
@@ -1797,8 +1797,6 @@ function save_settings()
     setting.s = setting.c
    end
    set_up_settings()
-  else
-   
   end
   s_cur = nil
   pop_state()
