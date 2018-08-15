@@ -10,6 +10,7 @@ Note: This is not a game of skill, but a game of chance.
 # How to Play:
 ## Browser:
 1. Up to date version here: https://www.lexaloffle.com/bbs/?tid=31656
+2. Use arrow keys, Z, and X to play
 
 ## On Android:
 1. Download the Super Pico Player app by Asentrix Studios from the play store (join its beta)
@@ -22,8 +23,9 @@ Note: This is not a game of skill, but a game of chance.
 ## Computer: 
 1. Download this repository as a zip file
 2. Unzip it anywhere on your computer
-3. Inside prince.bin, there are native applications for Linux, Windows, and MacOS
-4. Alternatively, double click the .HTML file (with the .JS file beside it) for a local browser copy
+3a. Inside prince.bin, there are native applications for Linux, Windows, and MacOS
+3b. Alternatively, double click the .HTML file (with the .JS file beside it) for a local browser copy
+4. Use arrow keys, Z, and X to play
 
 # Special thanks to:
 * Sami Gray
